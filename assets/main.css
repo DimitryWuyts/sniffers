@@ -7,6 +7,7 @@ footer {
     box-shadow: 10px 10px 20px;
     border: 3px solid black;
     font-weight: bolder;
+    margin-top: 50px;
 }
 
 footer:hover {
@@ -42,5 +43,7 @@ a:hover#contact {color: darkgreen;}
 a:link#adress {color: white;}
 a:visited#adress {color: lightblue;}
 a:hover#adress {color: yellow;}
+
+.navbar {background-color: white;}
 
 
