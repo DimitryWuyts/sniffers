@@ -2,7 +2,7 @@ footer {
     background-image: url("../images/footer hd.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 40px 40px 40px;
+    padding: 35px 35px 35px 35px;
     box-shadow: 10px 10px 20px;
     border: 3px solid black;
     font-weight: bolder;
@@ -41,7 +41,8 @@ a:link#contact {color: black;}
 a:visited#contact {color: darkblue;}
 a:hover#contact {color: darkgreen;}
 
-#copy {color: black;}
+#copy {color: black;
+font-size: 200%;}
 
 a:link#adress {color: black;}
 a:visited#adress {color: darkblue;}
