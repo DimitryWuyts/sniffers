@@ -46,8 +46,6 @@ a:hover#adress {color: yellow;}
 
 .navbar {background-color: white;}
 
-/* Contact form */
-
 //import font from google
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
 
@@ -200,5 +198,3 @@ h1{
     }
   }
 }
-
-
