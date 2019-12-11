@@ -2,14 +2,6 @@
   background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
 }
 
-.carousel-indicators {
-  bottom: 50px;
-}
-
-.carousel-inner {
-  margin-bottom: 50px;
-}
-
 .carousel-control-prev-icon {
   filter: invert(100%);
   margin-left: -100px;
@@ -21,7 +13,9 @@
 }
 
 .card-img-top {
-  fill: context-fill;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
 /* Footer Css*/
