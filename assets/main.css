@@ -1,3 +1,7 @@
+body {background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+background-size: cover;
+background-repeat: no-repeat;}
+
 footer {
     background-image: url("../images/footer hd.png");
     background-repeat: no-repeat;
@@ -62,7 +66,8 @@ a:hover#adress {color: yellow;}
     outline: 2px solid black;
     width: 25%;}
 
-.content3 {width: 40%;}
+.content3 {width: 40%;
+}
 
 .btn {background-image: url("../images/shitbutton.jpeg");
     background-size: cover;
