@@ -2,6 +2,21 @@
   background-color: chocolate;
 }
 
+.carousel-indicators {
+  bottom: 50px;
+}
+.carousel-inner {
+  margin-bottom: 50px;
+}
+.carousel-control-prev-icon {
+  filter: invert(100%);
+  margin-left: -100px;
+}
+.carousel-control-next-icon {
+  filter: invert(100%);
+  margin-right: -100px;
+}
+
 /* Footer Css*/
 
 footer {
