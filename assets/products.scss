@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .navbar {
   background-image: url('https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg');
 }
@@ -13,6 +21,11 @@
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+.card {
+  border-style: solid;
+  border-width: 10px;
+  border: rgb(51, 204, 255);
 
 }
 
