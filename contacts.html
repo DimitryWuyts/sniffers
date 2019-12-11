@@ -5,52 +5,77 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/main.css"/>
+    <link rel="stylesheet" href="assets/contacts.css"/>
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="collapse navbar-collapse container-fluid text-center" id="navbarNav">
+
+<nav class="navbar navbar-expand-lg text-center navbar-light sticky-top">
+    <div class="container-fluid">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Restaurant</a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Hotel</a>
+                <a class="nav-link" href="products.html">Our Products</a>
             </li>
         </ul>
-        <a class="navbar-brand" href="index.html"><h1>Sniffers</h1></a>
+        <a class="navbar-brand d-none d-sm-block mx-auto" href="index.html"><h1>Sniffers</h1></a>
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Find Us</a>
+                <a class="nav-link" href="faqs.html">FAQ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contacts.html">Contact Us</a>
             </li>
         </ul>
     </div>
 </nav>
+<!-- End navbar -->
     
 <!-- Contact Form -->
-    <div>
-<form
-  action="https://formspree.io/xoqvrovw"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+<h1> Contact Us 
+  <small>Please fill in the form to send an email to us.</small>
+</h1>
+<section class="contact-wrap">
+  <form action="" class="contact-form">
+    <div class="col-sm-6">
+      <div class="input-block">
+        <label for="">First Name</label>
+        <input type="text" class="form-control">
+      </div>
     </div>
+    <div class="col-sm-6">
+      <div class="input-block">
+        <label for="">Last Name</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for="">email</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for="">Message Subject</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block textarea">
+        <label for="">Drop your message here</label>
+        <textarea rows="3" type="text" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <button class="square-button">Send</button>
+    </div>
+  </form>
+</section>
+
+</div>
     
 <!-- footer -->
 
@@ -87,6 +112,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="assets/contacts.js"></script>
 </body>
 </html>
