@@ -37,3 +37,12 @@
 header {
     margin: 10px;
 }
+
+.question1 {
+    margin: 15px;
+    border: black 2px solid;
+}
+label {
+    padding: 5px;
+    font-weight: bolder;
+}
