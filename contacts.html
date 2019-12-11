@@ -6,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/main.css"/>
+    <script>
+        //material contact form animation
+$('.contact-form').find('.form-control').each(function() {
+  var targetItem = $(this).parent();
+  if ($(this).val()) {
+    $(targetItem).find('label').css({
+      'top': '10px',
+      'fontSize': '14px'
+    });
+  }
+})
+$('.contact-form').find('.form-control').focus(function() {
+  $(this).parent('.input-block').addClass('focus');
+  $(this).parent().find('label').animate({
+    'top': '10px',
+    'fontSize': '14px'
+  }, 300);
+})
+$('.contact-form').find('.form-control').blur(function() {
+  if ($(this).val().length == 0) {
+    $(this).parent('.input-block').removeClass('focus');
+    $(this).parent().find('label').animate({
+      'top': '25px',
+      'fontSize': '18px'
+    }, 300);
+  }
+    })</script>
 </head>
 <body>
 <!-- Navbar -->
