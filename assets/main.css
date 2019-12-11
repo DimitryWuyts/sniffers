@@ -1,8 +1,8 @@
 footer {
-    background-image: url("");
+    background-image: url("../images/footer hd.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px 10px 10px 10px;
+    background-size: unset ;
+    padding: 40px 40px 40px 40px;
     box-shadow: 10px 10px 20px;
     border: 3px solid black;
     font-weight: bolder;
@@ -51,13 +51,17 @@ a:hover#adress {color: yellow;}
 
 .content {
     box-shadow: 10px 20px 20px #888888;
-transform: rotate(-3deg);
-    outline: 2px solid black;}
+    transform: rotate(-3deg);
+    outline: 2px solid black;
+    width: 25%;}
 
 .content2 {
     box-shadow: 10px 20px 20px #888888;
     transform: rotate(3deg);
-    outline: 2px solid black;}
+    outline: 2px solid black;
+    width: 25%;}
+
+.content3 {width: 40%;}
 
 .btn {background-image: url("../images/shitbutton.jpeg");
     background-size: cover;
