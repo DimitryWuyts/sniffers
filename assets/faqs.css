@@ -14,20 +14,9 @@
     font-size: 15px;
 }
 
-.active, .collapsible:hover {
-    background-color: #ccc;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-
 .hidden {
     display: none;
-    height: 100px;
+    height: 80px;
     background: lightblue;
 }
 :checked + .hidden {
@@ -46,10 +35,13 @@ header {
 label {
     padding: 5px;
     font-weight: bolder;
+    background-color: darkgray;
 }
 
 .question1 :hover {
     background-color: peru;
 }
 
-.question
+#second {
+    background-color: aqua;
+}
