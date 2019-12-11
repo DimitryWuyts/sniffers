@@ -20,6 +20,10 @@
   margin-right: -100px;
 }
 
+.card-img-top {
+  fill: context-fill;
+}
+
 /* Footer Css*/
 footer {
   background-image: url("https://previews.123rf.com/images/dobric/dobric1612/dobric161200032/67656456-doodle-set-with-men-s-underwear-seamless-pattern-casual-underclothes-for-boys-cartoon-background-.jpg");
