@@ -1,5 +1,5 @@
 .navbar {
-    background-color: aqua ;
+    background-color: lightblue ;
 }
 
 .collapsible {
@@ -39,10 +39,17 @@ header {
 }
 
 .question1 {
-    margin: 15px;
+    margin: 25px;
     border: black 2px solid;
+
 }
 label {
     padding: 5px;
     font-weight: bolder;
 }
+
+.question1 :hover {
+    background-color: peru;
+}
+
+.question
