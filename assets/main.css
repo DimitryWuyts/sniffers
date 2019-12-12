@@ -4,6 +4,10 @@ body {background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f856
 background-size: cover;
 background-repeat: no-repeat;}
 
+h1, h2 {font-family: 'Girassol', cursive;}
+
+/* footer */
+
 footer {
     background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/sC1P4hp1j96B6WB/footer%20hd%20cropped.png");
     background-repeat: no-repeat;
@@ -15,6 +19,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 
 footer:hover {
     box-shadow: 20px 20px 40px;
@@ -28,11 +33,6 @@ footer:hover {
 ul {color: black;
 }
 
-h1, h2 {font-family: 'Girassol', cursive;}
-
-.disclaimer {color: black;
-    list-style-image: url("../images/shit.jpeg");
-}
 
 .social {width: 5%;
     float: right;
@@ -57,7 +57,15 @@ a:link#adress {color: black;}
 a:visited#adress {color: darkblue;}
 a:hover#adress {color: yellow;}
 
+.disclaimer {color: black;
+    list-style-image: url("../images/shit.jpeg");
+}
+
+/* navbar */
+
 .navbar {background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");}
+
+/* content */
 
 .content {
     box-shadow: 10px 20px 20px #888888;
@@ -74,8 +82,6 @@ a:hover#adress {color: yellow;}
 .content3 {width: 40%;
 }
 
-.btn {background-image: url("../images/shitbutton.jpeg");
-    background-size: cover;
-    color: black;
-    outline: 2px solid black;}
+.button {background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/mToiP2FGtx7QmRw/brown%20button.png");
+    color: wheat;}
 
