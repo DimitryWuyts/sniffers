@@ -28,6 +28,8 @@ footer:hover {
 ul {color: black;
 }
 
+h1, h2 {font-family: 'Girassol', cursive;}
+
 .disclaimer {color: black;
     list-style-image: url("../images/shit.jpeg");
 }
