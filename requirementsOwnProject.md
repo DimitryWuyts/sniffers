@@ -65,7 +65,7 @@
 
 ### Git(hub) is what you make it
 
-    All commits use a good comment
+  [x]  All commits use a good comment
     A github description has been filled in
     A github website has been filled in
 
@@ -87,14 +87,14 @@
 
 ### I'm So Meta, Even This Acronym
 
-    Social media sharing meta tags are correct
-    Keywords meta tag
-    Description meta tag
-    Title of the page is included
+  [x]  Social media sharing meta tags are correct
+  [x]  Keywords meta tag
+  [x]  Description meta tag
+  [x]  Title of the page is included
     Favicon is included
-    Responsive meta tag is included
-    Charset is defined
-    Author is defined
+  [x]  Responsive meta tag is included
+  [x]  Charset is defined
+  [x]  Author is defined
 
 ### Data is the new oil
 
@@ -107,28 +107,28 @@
 
 ### Putting the antics back in semantics (but only for the html)
 
-    The html is semanticly correct
-    Navigation is in a nav
-    Lists use list tags
-    H tags are used to signal importance
+ [x]   The html is semanticly correct
+ [x]   Navigation is in a nav
+ [x]   Lists use list tags
+ [x]   H tags are used to signal importance
     No div is used where another element is available
-    No span is used where another element is available
-    No inline styling is put on any element
-    Id's are only used once
-    The same 'type' of elements have the same classes
-    All images have an alt attribute and a title
+ [x]   No span is used where another element is available
+ [x]   No inline styling is put on any element
+ [x]   Id's are only used once
+ [x]   The same 'type' of elements have the same classes
+ [x]   All images have an alt attribute and a title
 
 ### Just kidding CSS deserves some love too
 
-    CSS follows the DRY principle
+ [x]   CSS follows the DRY principle
     The CSS does not contain conflicting selectors (multiple definition for the same class/id)
-    There is no use of !important where it can be avoided
-    The page is responsive
+ [x]   There is no use of !important where it can be avoided
+ [x]   The page is responsive
 
 ### Thermometer goes WHERE???
 
-    Your own style is included after the style of frameworks
-    Script tags are put at the end of the body or in the head with async/defer if possible
+ [x]  Your own style is included after the style of frameworks
+ [x]   Script tags are put at the end of the body or in the head with async/defer if possible
 
 ### Errors are to be avoided
 
