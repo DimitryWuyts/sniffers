@@ -1,10 +1,22 @@
+/* General CSS for all pages */
+
 * {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Girassol', cursive;}
 
-body {background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
-background-size: cover;
-background-repeat: no-repeat;}
+body {
+    background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-h1, h2 {font-family: 'Girassol', cursive;}
+.navbar {
+    background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* footer */
 
@@ -20,70 +32,97 @@ footer {
     margin-bottom: 50px;
 }
 
-
 footer:hover {
     box-shadow: 20px 20px 40px;
     opacity: 0.9;
     border: 4px solid black;
 }
 
-.footername { display: inline;
-    color: black;}
-
-ul {color: black;
+.footername {
+    display: inline;
+    color: black;
 }
 
+ul {
+    color: black;
+}
 
-.social {width: 5%;
+.social {
+    width: 5%;
     float: right;
     display: inline;
     padding: 10px 10px 10px 10px;
 }
 
-#contact {float: right;
+#contact {
+    float: right;
     margin-left: 90%;
     padding-top: 20px;
     padding-right: 10px;
-
 }
+
 a:link#contact {color: black;}
 a:visited#contact {color: darkblue;}
 a:hover#contact {color: darkgreen;}
 
-#copy {color: black;
-font-size: 150%;}
+#copy {
+    color: black;
+    font-size: 150%;
+}
 
 a:link#adress {color: black;}
 a:visited#adress {color: darkblue;}
 a:hover#adress {color: yellow;}
 
-.disclaimer {color: black;
+.disclaimer {
+    color: black;
     list-style-image: url("../images/shit.jpeg");
 }
 
-/* navbar */
-
-.navbar {background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");}
-
-/* content */
+/* Dimitry Css */
 
 .content {
     box-shadow: 10px 20px 20px #888888;
     transform: rotate(-3deg);
     outline: 2px solid black;
-    width: 25%;}
+    width: 25%;
+}
 
 .content2 {
     box-shadow: 10px 20px 20px #888888;
     transform: rotate(3deg);
     outline: 2px solid black;
-    width: 25%;}
-
-.content3 {width: 40%;
+    width: 25%;
 }
 
-.button {background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/mToiP2FGtx7QmRw/brown%20button.png");
-    color: wheat;}
+.content3 {
+    width: 40%;
+}
+
+.button {
+    background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/mToiP2FGtx7QmRw/brown%20button.png");
+    color: wheat;
+}
 
 .buttonslideshow:hover {opacity: 0.85;}
+
+/* Neil's CSS */
+
+.neilsCarouselPrev {
+    filter: invert(100%);
+    margin-left: -10%;
+}
+
+.neilsCarouselNext {
+    filter: invert(100%);
+    margin-right: -10%;
+}
+
+.neilsCardImages {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
 

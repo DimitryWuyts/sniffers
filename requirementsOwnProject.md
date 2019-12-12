@@ -1,15 +1,15 @@
 ## Requirements
 ### Perfection is not a detail
 
- [x]   All buttons and links work
- [x]   All elements work and are complete (menu, lists, images, ...)
- [x]   Everything on the page has a function, a reason to be there
- [x]   No dead links
- [x]   English and dutch are not mixed
- [x]   No spelling errors
- [x]   No grammar errors
- [x]   The website is deployed somewhere
- [x]   Everything is relevant (no image of a barber on the website of a baker)
+  [x]   All buttons and links work
+  [x]   All elements work and are complete (menu, lists, images, ...)
+  [x]   Everything on the page has a function, a reason to be there
+  [x]   No dead links
+  [x]   English and dutch are not mixed
+  [x]   No spelling errors
+  [x]   No grammar errors
+  [x]   The website is deployed somewhere
+  [x]   Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
 
