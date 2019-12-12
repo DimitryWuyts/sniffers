@@ -128,7 +128,7 @@ a:hover#adress {color: yellow;}
 
 /* end Neil Css */
 
-/* Malik Form Css */
+/* Malik Css */
 
 .square-button {
   margin-top: 5px;
@@ -234,4 +234,69 @@ h1{
   }
 }
 
-/* End Malik form Css */
+/* End Malik Css */
+
+/* Ivo Css */
+
+/* Prlx effect */
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/logo5.png");
+
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* faqs css */
+
+.hidden {
+  display: none;
+  height: 80%;
+  background: lightblue;
+  word-wrap: break-word;
+}
+:checked + .hidden {
+  display: block;
+
+}
+.question1 {
+  margin: 50px;
+  border: black 2px solid;
+  width: 70%;
+  background-color: darkgray;
+  font-size: large;
+}
+label {
+  font-weight: bolder;
+  color: white ;
+}
+#first :hover {
+  cursor: pointer;
+}
+
+/* Header css */
+
+header {
+  margin: 10%;
+}
+/*card group */
+
+#card {
+  display: flex;
+}
+
+.card-group {
+  margin: 10%;
+  position: center;
+  width: 80%;
+  height: 100%;
+}
+
+/* end Ivo Css */
