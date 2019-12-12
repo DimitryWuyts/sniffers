@@ -1,3 +1,5 @@
+* {font-family: 'Roboto', sans-serif;}
+
 body {background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
 background-size: cover;
 background-repeat: no-repeat;}
@@ -11,6 +13,7 @@ footer {
     border: 3px solid black;
     font-weight: bolder;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer:hover {
