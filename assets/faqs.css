@@ -32,8 +32,8 @@ label {
     font-weight: bolder;
     color: white ;
 }
-.question1 :hover {
-
+#first :hover {
+    cursor: pointer;
 }
 
 /* Header css */
@@ -43,16 +43,17 @@ header {
 }
 
 /* Footer starts */
+
 footer {
-    background-image: url("../images/footer hd.png");
+    background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/sC1P4hp1j96B6WB/footer%20hd%20cropped.png");
     background-repeat: no-repeat;
-    background-size: unset;
-    padding: 40px 40px 40px 40px;
+    background-size: cover;
+    padding: 35px 35px 35px 35px;
     box-shadow: 10px 10px 20px;
     border: 3px solid black;
     font-weight: bolder;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 footer:hover {
@@ -61,69 +62,46 @@ footer:hover {
     border: 4px solid black;
 }
 
-.footername {
-    display: inline;
-    color: black;
+.footername { display: inline;
+    color: black;}
+
+ul {color: black;
 }
 
-ul {
-    color: black;
-}
-
-.social {
-    width: 3%;
+.social {width: 5%;
     float: right;
     display: inline;
     padding: 10px 10px 10px 10px;
 }
 
-#contact {
-    float: right;
+#contact {float: right;
     margin-left: 90%;
     padding-top: 20px;
     padding-right: 10px;
-}
 
-a:link#contact {
-    color: black;
 }
+a:link#contact {color: black;}
+a:visited#contact {color: darkblue;}
+a:hover#contact {color: darkgreen;}
 
-a:visited#contact {
-    color: darkblue;
-}
+#copy {color: black;
+    font-size: 150%;}
 
-a:hover#contact {
-    color: darkgreen;
-}
+a:link#adress {color: black;}
+a:visited#adress {color: darkblue;}
+a:hover#adress {color: yellow;}
 
-#copy {
-    color: black;
-}
 
-a:link#adress {
-    color: white;
-}
-
-a:visited#adress {
-    color: lightblue;
-}
-
-a:hover#adress {
-    color: yellow;
-}
+/*card group */
 
 #card {
-    display: inline;
-    width: 100%;
-    height: 100;
+    display: flex;
 
-}
-
-#phonecall {
-    min-height="50%";
-    min-width="50";
 }
 
 .card-group {
+    margin: 10%;
     position: center;
+    width: 80%;
+    height: 100%;
 }
