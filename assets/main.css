@@ -34,7 +34,7 @@ h1, h2 {font-family: 'Girassol', cursive;}
     list-style-image: url("../images/shit.jpeg");
 }
 
-.social {width: 3%;
+.social {width: 5%;
     float: right;
     display: inline;
     padding: 10px 10px 10px 10px;
