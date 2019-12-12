@@ -17,7 +17,7 @@
   [x]  Address (if needed)
   [x]  Google maps
   [x]  Clickable email
-    A working form (you can use https://formspree.io)
+  [x]  A working form (you can use https://formspree.io)
 
 ### Text life matters aka typography is real
 
@@ -27,11 +27,11 @@
   [x]  We aren't using a default font, cause it's not 2004
   [x]  Contrast is not too low
   [x]  Typographic hierachy is correct
-    Text has a clear intro, middle, conclusion
-    Intro, middle, conclusion is style correctly
-    Headline font is a headline font
-    Body text font is a body text font
-    The text on the page has a good flow
+  [x]  Text has a clear intro, middle, conclusion
+  [x]  Intro, middle, conclusion is style correctly
+  [x]  Headline font is a headline font
+  [x]  Body text font is a body text font
+  [x]  The text on the page has a good flow
 
 ### Style
 
@@ -40,7 +40,7 @@
   [x]  The website is not an ugly color mess
   [x]  The styling is consistent
   [x]  It is not four totally different pages thrown together
-    Everything works even if you are colorblind
+  [x]  Everything works even if you are colorblind
 
 ### Not everyone has free 4G aka speed matters
 
@@ -49,9 +49,9 @@
 
 ### A company wants to be found/SEO
 
-    All the keywords this company wants to be found on are on the page
+  [x]  All the keywords this company wants to be found on are on the page
   [x]  Page has an H1 tag
-    Page has keyword meta tags
+  [x]  Page has keyword meta tags
   [x]  Page has a title with the keywords in
   [x]  Page loads fast
 
@@ -91,14 +91,14 @@
   [x]  Keywords meta tag
   [x]  Description meta tag
   [x]  Title of the page is included
-    Favicon is included
+  [x]  Favicon is included
   [x]  Responsive meta tag is included
   [x]  Charset is defined
   [x]  Author is defined
 
 ### Data is the new oil
 
-    Implements (Google) analytics
+  [x]  Implements (Google) analytics
 
 ### Perform all the tests
 
@@ -111,7 +111,7 @@
  [x]   Navigation is in a nav
  [x]   Lists use list tags
  [x]   H tags are used to signal importance
-    No div is used where another element is available
+ [x]   No div is used where another element is available
  [x]   No span is used where another element is available
  [x]   No inline styling is put on any element
  [x]   Id's are only used once
@@ -121,7 +121,7 @@
 ### Just kidding CSS deserves some love too
 
  [x]   CSS follows the DRY principle
-    The CSS does not contain conflicting selectors (multiple definition for the same class/id)
+ [x]   The CSS does not contain conflicting selectors (multiple definition for the same class/id)
  [x]   There is no use of !important where it can be avoided
  [x]   The page is responsive
 
