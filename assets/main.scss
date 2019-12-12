@@ -12,6 +12,12 @@ body {
 .navbar {
   background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
 }
+.nav-link {
+  color: rgb(25, 25, 25);
+}
+.nav-link:hover {
+  font-size: 125%;
+}
 
 html {
   scroll-behavior: smooth;
