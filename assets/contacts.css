@@ -59,6 +59,8 @@ a:hover#adress {color: yellow;}
 
 .navbar {background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");}
 
+.square-button {margin-top: 5px }
+
 //import font from google
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
 
