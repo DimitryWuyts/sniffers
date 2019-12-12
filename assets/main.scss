@@ -1,7 +1,11 @@
 /* General CSS for all pages */
+* {
+  font-family: "Roboto", sans-serif;
+}
 
-* {font-family: 'Roboto', sans-serif;}
-h1, h2, h3, h4, h5, h6 {font-family: 'Girassol', cursive;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Girassol", cursive;
+}
 
 body {
   background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
@@ -23,9 +27,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* footer */
-
 footer {
   background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/sC1P4hp1j96B6WB/footer%20hd%20cropped.png");
   background-repeat: no-repeat;
@@ -67,18 +69,34 @@ ul {
   padding-right: 10px;
 }
 
-a:link#contact {color: black;}
-a:visited#contact {color: darkblue;}
-a:hover#contact {color: darkgreen;}
+a:link#contact {
+  color: black;
+}
+
+a:visited#contact {
+  color: darkblue;
+}
+
+a:hover#contact {
+  color: darkgreen;
+}
 
 #copy {
   color: black;
   font-size: 150%;
 }
 
-a:link#adress {color: black;}
-a:visited#adress {color: darkblue;}
-a:hover#adress {color: yellow;}
+a:link#adress {
+  color: black;
+}
+
+a:visited#adress {
+  color: darkblue;
+}
+
+a:hover#adress {
+  color: yellow;
+}
 
 .disclaimer {
   color: black;
@@ -86,7 +104,6 @@ a:hover#adress {color: yellow;}
 }
 
 /* Dimitry Css */
-
 .content {
   box-shadow: 10px 20px 20px #888888;
   transform: rotate(-3deg);
@@ -110,12 +127,12 @@ a:hover#adress {color: yellow;}
   color: wheat;
 }
 
-.buttonslideshow:hover {opacity: 0.85;}
+.buttonslideshow:hover {
+  opacity: 0.85;
+}
 
 /* end Dimitry Css */
-
 /* Neil's CSS */
-
 .neilsCarouselPrev {
   filter: invert(100%);
   margin-left: -10%;
@@ -133,126 +150,120 @@ a:hover#adress {color: yellow;}
 }
 
 /* end Neil Css */
-
 /* Malik Css */
-
 .square-button {
   margin-top: 5px;
 }
 
 /* colors */
-$primary-color   : #00aeff;
-$secondary-color : #00aeff;
-$form-bg         : #00aeff;
-
-
 /* contact form */
-.contact-form{
+.contact-form {
   margin-top: 30px;
-  .input-block{
-    background-color: rgba(white, .8);
-    border: solid 1px $primary-color;
-    width: 100%;
-    height: 60px;
-    padding: 25px;
-    position: relative;
-    margin-bottom: 20px;
+}
 
-    &.focus{
-      background-color: $form-bg;
-      border: solid 1px darken($primary-color, 10%);
-    }
-    &.textarea{
-      height: auto;
-      .form-control{
-        height: auto;
-        resize: none;
-      }
-    }
-    label{
-      position: absolute;
-      left: 25px;
-      top: 25px;
-      display: block;
-      margin: 0;
-      font-weight: 300;
-      z-index: 1;
-      color: $secondary-color;
-      font-size: 18px;
-      line-height: 10px;
-    }
-    .form-control{
-      background-color: transparent;
-      padding: 0;
-      border: none;
-      height: auto;
-      position: relative;
-      z-index: 2;
-      font-size: 18px;
-      color: $secondary-color;
-    }
-    .form-control:focus{
-      label{
-        top: 0;
-      }
-    }
-  }
-  .square-button{
-    background-color: rgba(white, .8);
-    color: darken($primary-color, 10%);
-    font-size: 26px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-    padding: 0 60px;
-    height: 60px;
-    border: none;
-    width: 100%;
-    &:hover,
-    &:focus{
-      background-color: white;
-    }
-  }
+.contact-form .input-block {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid 1px #00aeff;
+  width: 100%;
+  height: 60px;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact-form .input-block.focus {
+  background-color: #00aeff;
+  border: solid 1px #008bcc;
+}
+
+.contact-form .input-block.textarea {
+  height: auto;
+}
+
+.contact-form .input-block.textarea .form-control {
+  height: auto;
+  resize: none;
+}
+
+.contact-form .input-block label {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  z-index: 1;
+  color: #00aeff;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.contact-form .input-block .form-control {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  color: #00aeff;
+}
+
+.contact-form .input-block .form-control:focus label {
+  top: 0;
+}
+
+.contact-form .square-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #008bcc;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 60px;
+  height: 60px;
+  border: none;
+  width: 100%;
+}
+
+.contact-form .square-button:hover, .contact-form .square-button:focus {
+  background-color: white;
 }
 
 /* tablet and above devices */
 @media (min-width: 768px) {
-  .contact-wrap{
+  .contact-wrap {
     width: 60%;
     margin: auto;
   }
 }
-h1{
-  color: lighten($primary-color, 10%);
+h1 {
+  color: #33beff;
   padding: 40px;
   margin: 0 0 50px;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  small{
-    font-size: 18px;
-    display: block;
-    text-transform: none;
-    font-weight: 300;
-    margin-top: 10px;
-    color: lighten($primary-color, 10%);
-  }
+}
+
+h1 small {
+  font-size: 18px;
+  display: block;
+  text-transform: none;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #33beff;
 }
 
 /* End Malik Css */
-
 /* Ivo Css */
-
 /* Prlx effect */
-
 .parallax {
   /* The image used */
-  background-image: url("../images/logo5.png");
-
+  background-image: url("../images/parallaximage.webp");
   /* Set a specific height */
   height: 700px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -261,17 +272,17 @@ h1{
 }
 
 /* faqs css */
-
 .hidden {
   display: none;
   height: 80%;
   background: lightblue;
   word-wrap: break-word;
 }
+
 :checked + .hidden {
   display: block;
-
 }
+
 .question1 {
   margin: 50px;
   border: black 2px solid;
@@ -279,21 +290,22 @@ h1{
   background-color: darkgray;
   font-size: large;
 }
+
 label {
   font-weight: bolder;
-  color: white ;
+  color: white;
 }
+
 #first :hover {
   cursor: pointer;
 }
 
 /* Header css */
-
 header {
   margin: 10%;
 }
-/*card group */
 
+/*card group */
 #card {
   display: flex;
 }
@@ -306,3 +318,6 @@ header {
 }
 
 /* end Ivo Css */
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.scss.map */
