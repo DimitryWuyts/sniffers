@@ -38,10 +38,11 @@ body {
 
 }
 .question1 {
-    margin: 25px;
+    margin: 50px;
     border: black 2px solid;
-    width: 50%;
+    width: 70%;
     background-color: darkgray;
+    font-size: large;
 }
 label {
     font-weight: bolder;
@@ -54,7 +55,7 @@ label {
 /* Header css */
 
 header {
-    margin: 10px;
+    margin: 10%;
 }
 
 /* Footer starts */
@@ -111,7 +112,6 @@ a:hover#adress {color: yellow;}
 
 #card {
     display: flex;
-
 }
 
 .card-group {
