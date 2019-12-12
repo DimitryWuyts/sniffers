@@ -85,3 +85,5 @@ a:hover#adress {color: yellow;}
 .button {background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/mToiP2FGtx7QmRw/brown%20button.png");
     color: wheat;}
 
+.buttonslideshow:hover {opacity: 0.85;}
+
