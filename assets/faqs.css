@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* Navbar css */
 
@@ -20,14 +25,15 @@
 .question1 {
     margin: 25px;
     border: black 2px solid;
-
+    width: 50%;
+    background-color: darkgray;
 }
 label {
     font-weight: bolder;
-    background-color: darkgray;
+    color: white ;
 }
 .question1 :hover {
-    background-color: peru;
+
 }
 
 /* Header css */
@@ -46,7 +52,7 @@ footer {
     border: 3px solid black;
     font-weight: bolder;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 footer:hover {
