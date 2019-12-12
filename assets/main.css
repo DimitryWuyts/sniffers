@@ -130,6 +130,9 @@ a:hover#adress {
   color: wheat;
 }
 
+.buttonslideshow {  width: 35%;
+  height: auto;}
+
 .buttonslideshow:hover {
   opacity: 0.85;
 }
