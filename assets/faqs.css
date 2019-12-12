@@ -1,66 +1,58 @@
 body {
-    margin-bottom: 500px;
-}
-.navbar {
-    background-color: lightblue ;
+    background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
+/* Navbar css */
+
+.navbar {
+    background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
 }
+
+/* faqs css */
 
 .hidden {
     display: none;
-    height: 80px;
+    height: 80%;
     background: lightblue;
-    overflow-wrap: initial;
+    word-wrap: break-word;
 }
 :checked + .hidden {
     display: block;
+
 }
+.question1 {
+    margin: 25px;
+    border: black 2px solid;
+    width: 50%;
+    background-color: darkgray;
+}
+label {
+    font-weight: bolder;
+    color: white ;
+}
+.question1 :hover {
+
+}
+
+/* Header css */
 
 header {
     margin: 10px;
 }
 
-.question1 {
-    padding: 0px;
-    margin: 25px;
-    border: black 2px solid;
-}
-
-label {
-    padding: 5px;
-    font-weight: bolder;
-    background-color: darkgray;
-}
-
-.question1 :hover {
-    background-color: peru;
-}
-
-#second {
-    background-color: aqua;
-}
-
+/* Footer starts */
 footer {
-    background-image: url("https://previews.123rf.com/images/dobric/dobric1612/dobric161200032/67656456-doodle-set-with-men-s-underwear-seamless-pattern-casual-underclothes-for-boys-cartoon-background-.jpg");
+    background-image: url("../images/footer hd.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px 10px 10px 10px;
-    font-family: "Montserrat", Sans-Serif;
+    background-size: unset;
+    padding: 40px 40px 40px 40px;
     box-shadow: 10px 10px 20px;
     border: 3px solid black;
     font-weight: bolder;
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 footer:hover {
@@ -69,11 +61,55 @@ footer:hover {
     border: 4px solid black;
 }
 
+.footername {
+    display: inline;
+    color: black;
+}
+
+ul {
+    color: black;
+}
+
 .social {
     width: 3%;
     float: right;
     display: inline;
     padding: 10px 10px 10px 10px;
+}
+
+#contact {
+    float: right;
+    margin-left: 90%;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+a:link#contact {
+    color: black;
+}
+
+a:visited#contact {
+    color: darkblue;
+}
+
+a:hover#contact {
+    color: darkgreen;
+}
+
+#copy {
+    color: black;
+}
+
+a:link#adress {
+    color: white;
+}
+
+a:visited#adress {
+    color: lightblue;
+}
+
+a:hover#adress {
+    color: yellow;
 }
 
 #card {
