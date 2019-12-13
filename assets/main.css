@@ -194,7 +194,7 @@ a:hover#adress {
   z-index: 1;
   color: #00aeff;
   font-size: 18px;
-  line-height: 0px;
+  line-height: 0;
 }
 .contact-form .input-block .form-control {
   background-color: transparent;
@@ -281,13 +281,12 @@ h1 small {
   margin: 50px;
   border: black 2px solid;
   width: 70%;
-  background-color: darkgray;
-  font-size: large;
+  background-color: #6666ff;
 }
 
 label {
   font-weight: bolder;
-  color: white;
+  color: #eeeeee;
 }
 
 #first :hover {
