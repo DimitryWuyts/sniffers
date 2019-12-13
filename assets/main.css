@@ -15,6 +15,7 @@ body {
 
 .navbar {
   background-image: url("../images/navbackground.webp");
+  font-size: 150%;
 }
 
 .nav-link {
