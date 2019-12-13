@@ -8,13 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+  background-image: url("../images/generalbackground.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .navbar {
-  background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
+  background-image: url("../images/navbackground.webp");
 }
 
 .nav-link {
@@ -62,6 +62,7 @@ ul {
   float: right;
   display: inline;
   padding: 10px 10px 10px 10px;
+  min-width: 50px;
 }
 
 #contact {
@@ -102,7 +103,7 @@ a:hover#adress {
 
 .disclaimer {
   color: black;
-  list-style-image: url("../images/shit.jpeg");
+  list-style-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/vEeqVDuFyZKg226/rsz_shit.png");
 }
 
 /* Dimitry Css */
@@ -128,6 +129,9 @@ a:hover#adress {
   background-image: url("https://contattafiles.s3.us-west-1.amazonaws.com/tnt14094/mToiP2FGtx7QmRw/brown%20button.png");
   color: wheat;
 }
+
+.buttonslideshow {  width: 35%;
+  height: auto;}
 
 .buttonslideshow:hover {
   opacity: 0.85;
@@ -166,13 +170,12 @@ a:hover#adress {
   background-color: rgba(255, 255, 255, 0.8);
   border: solid 1px #00aeff;
   width: 100%;
-  height: 60px;
-  padding: 25px;
+  height: 70px;
+  padding: 10px;
   position: relative;
   margin-bottom: 20px;
 }
 .contact-form .input-block.focus {
-  background-color: #00aeff;
   border: solid 1px #008bcc;
 }
 .contact-form .input-block.textarea {
@@ -183,16 +186,15 @@ a:hover#adress {
   resize: none;
 }
 .contact-form .input-block label {
-  position: absolute;
   left: 25px;
-  top: 25px;
   display: block;
-  margin: 0;
+  margin: 5px;
+  padding-bottom: 10px;
   font-weight: 300;
   z-index: 1;
   color: #00aeff;
   font-size: 18px;
-  line-height: 10px;
+  line-height: 0px;
 }
 .contact-form .input-block .form-control {
   background-color: transparent;
@@ -253,7 +255,7 @@ h1 small {
 /* Prlx effect */
 .parallax {
   /* The image used */
-  background-image: url("../images/logo5.png");
+  background-image: url("../images/parallaximage.webp");
   /* Set a specific height */
   height: 700px;
   /* Create the parallax scrolling effect */
