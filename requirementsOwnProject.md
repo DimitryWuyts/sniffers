@@ -66,24 +66,24 @@
 ### Git(hub) is what you make it
 
   [x]  All commits use a good comment
-    A github description has been filled in
-    A github website has been filled in
+  [x]  A github description has been filled in
+  [x]  A github website has been filled in
 
 ### Readme but also writeme
 
-    The readme says who made it
-    The readme says why they made it
-    The readme explains what this repo/project is
-    The readme explains why it is on github
-    The readme links to a preview (screenshot)
-    The readme contains a nice image
-    The readme does not contain the readme/license of dependencies, libraries, templates
-    If needed they are included in the repo and are mentioned in the readme
-    The readme has a markdown title
-    The readme is divided in sections
-    The readme is fun to read
-    The readme looks good
-    The readme is clear, even for someone that has no idea what is going on
+  [x]  The readme says who made it
+  [x]  The readme says why they made it
+  [x]  The readme explains what this repo/project is
+  [x]  The readme explains why it is on github
+  [x]  The readme links to a preview (screenshot)
+  [x]  The readme contains a nice image
+  [x]  The readme does not contain the readme/license of dependencies, 		libraries, templates
+  [x]  If needed they are included in the repo and are mentioned in 		the readme
+  [x]  The readme has a markdown title
+  [x]  The readme is divided in sections
+  [x]  The readme is fun to read
+  [x]  The readme looks good
+  [x]  The readme is clear, even for someone that has no idea what is 		going on
 
 ### I'm So Meta, Even This Acronym
 
@@ -102,8 +102,8 @@
 
 ### Perform all the tests
 
-    Lighthouse
-    W3C validator
+  [x]  Lighthouse
+  [x]  W3C validator
 
 ### Putting the antics back in semantics (but only for the html)
 
@@ -121,7 +121,7 @@
 ### Just kidding CSS deserves some love too
 
  [x]   CSS follows the DRY principle
- [x]   The CSS does not contain conflicting selectors (multiple definition for the same class/id)
+ [x]   The CSS does not contain conflicting selectors (multiple 	definition for the same class/id)
  [x]   There is no use of !important where it can be avoided
  [x]   The page is responsive
 
@@ -132,6 +132,6 @@
 
 ### Errors are to be avoided
 
-    No http resources are used on an https website
-    The console shows no errors
+ [x]  No http resources are used on an https website
+ [x]   The console shows no errors
 
