@@ -8,13 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-image: url("https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg");
+  background-image: url("../images/generalbackground.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .navbar {
-  background-image: url("https://thumbs.dreamstime.com/z/white-blue-technology-background-perspective-digitall-abstract-technology-white-blue-background-computer-generated-d-130406237.jpg");
+  background-image: url("../images/navbackground.webp");
 }
 
 .nav-link {
